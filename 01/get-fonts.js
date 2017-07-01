@@ -3,8 +3,8 @@ const exec = require('child_process').exec;
 function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 const files = [
-  "fonts/Alissya.ttf",
-  "fonts/Lato-Light.ttf"
+  "css/fonts/Alissya.ttf",
+  "css/fonts/Lato-Light.ttf"
 ]
 
 files.forEach(file => {
