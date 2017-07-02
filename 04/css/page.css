@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+  background-color: black;
+  height: 100%;
+  font-family: lato;
+}
+
+.titleBig {
+  font-size: 400%;
+  font-family: fancy;
+}
+
+.poem {
+  opacity: .3;
+  position: absolute;
+  font-size: 120%;
+
+  background-color: rgba(0, 0, 0, .3);
+  font-family: lato;
+    
+  padding: 10px 5px;
+  text-align: center;
+  position: absolute;
+  border-radius: 50px;
+  width: 290px;
+}
+
+@font-face {
+  font-family: fancy;
+  src: url(fonts/Alissya.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(fonts/Lato-Light.ttf);
+}
+
+#view {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	height: 100%;
+}
+
+#world {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#poems {
+  overflow: hidden;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+#three {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#title {
+  padding: 10px 40px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, .3);
+  font-family: lato;
+  text-align: center;
+  position: absolute;
+  border-radius: 50px;
+  margin: 0px auto;
+}
