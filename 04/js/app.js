@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 				var p = handSites[i]
 
-				g.fill(i * .013, 1, 1);
+				g.fill(i * .013, 0.5, 1);
 				g.noStroke();
 				//g.ellipse(p.x, p.y, 15, 15);
 
